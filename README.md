@@ -1,4 +1,4 @@
-# MusicPlayerTest!
+# MusicPlayerTest
 
 - Supports IOS 13+
 - Swift 5+
