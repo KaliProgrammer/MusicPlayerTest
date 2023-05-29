@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		D02AE4BF2A228DCB00321500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4BE2A228DCB00321500 /* AppDelegate.swift */; };
 		D02AE4C12A228DCB00321500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4C02A228DCB00321500 /* SceneDelegate.swift */; };
-		D02AE4C32A228DCB00321500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4C22A228DCB00321500 /* ViewController.swift */; };
+		D02AE4C32A228DCB00321500 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4C22A228DCB00321500 /* MainViewController.swift */; };
 		D02AE4C62A228DCB00321500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02AE4C42A228DCB00321500 /* Main.storyboard */; };
 		D02AE4C82A228DCC00321500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02AE4C72A228DCC00321500 /* Assets.xcassets */; };
 		D02AE4CB2A228DCC00321500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02AE4C92A228DCC00321500 /* LaunchScreen.storyboard */; };
+		D02AE4D72A228F4100321500 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4D62A228F4100321500 /* UIColor+Extension.swift */; };
+		D02AE4DA2A228FFC00321500 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D02AE4D92A228FFC00321500 /* SnapKit */; };
+		D02AE4DD2A22902300321500 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D02AE4DC2A22902300321500 /* RxCocoa */; };
+		D02AE4DF2A22902300321500 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = D02AE4DE2A22902300321500 /* RxRelay */; };
+		D02AE4E12A22902300321500 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D02AE4E02A22902300321500 /* RxSwift */; };
+		D02AE4E52A22915300321500 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4E42A22915300321500 /* MainViewModel.swift */; };
+		D02AE4E72A22921D00321500 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4E62A22921D00321500 /* CustomCell.swift */; };
+		D02AE4E92A22926B00321500 /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4E82A22926B00321500 /* ReuseIdentifiable.swift */; };
+		D02AE4EB2A22936F00321500 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4EA2A22936F00321500 /* UIView+Extension.swift */; };
+		D02AE4EE2A22968000321500 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4ED2A22968000321500 /* Track.swift */; };
+		D02AE4F02A229D3000321500 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE4EF2A229D3000321500 /* TrackViewController.swift */; };
+		D02AE4F42A22B1DD00321500 /* karma-police.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D02AE4F32A22B1DD00321500 /* karma-police.mp3 */; };
+		D02AE4FC2A22CB5500321500 /* the-unforgiven.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D02AE4FB2A22CB5500321500 /* the-unforgiven.mp3 */; };
+		D02AE4FE2A22CC8000321500 /* if-darkness-had-a-son.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D02AE4FD2A22CC8000321500 /* if-darkness-had-a-son.mp3 */; };
+		D02AE5002A22CDC100321500 /* killer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D02AE4FF2A22CDC100321500 /* killer.mp3 */; };
+		D02AE5022A22CE5D00321500 /* st-anger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D02AE5012A22CE5D00321500 /* st-anger.mp3 */; };
+		D02AE5042A23D0BB00321500 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AE5032A23D0BB00321500 /* Image+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D02AE4BB2A228DCB00321500 /* MusicPlayerTestovoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerTestovoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02AE4BE2A228DCB00321500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D02AE4C02A228DCB00321500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D02AE4C22A228DCB00321500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D02AE4C22A228DCB00321500 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D02AE4C52A228DCB00321500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D02AE4C72A228DCC00321500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02AE4CA2A228DCC00321500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D02AE4CC2A228DCC00321500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02AE4D62A228F4100321500 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D02AE4E42A22915300321500 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		D02AE4E62A22921D00321500 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		D02AE4E82A22926B00321500 /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		D02AE4EA2A22936F00321500 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D02AE4ED2A22968000321500 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		D02AE4EF2A229D3000321500 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		D02AE4F32A22B1DD00321500 /* karma-police.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "karma-police.mp3"; sourceTree = "<group>"; };
+		D02AE4FB2A22CB5500321500 /* the-unforgiven.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "the-unforgiven.mp3"; sourceTree = "<group>"; };
+		D02AE4FD2A22CC8000321500 /* if-darkness-had-a-son.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "if-darkness-had-a-son.mp3"; sourceTree = "<group>"; };
+		D02AE4FF2A22CDC100321500 /* killer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = killer.mp3; sourceTree = "<group>"; };
+		D02AE5012A22CE5D00321500 /* st-anger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "st-anger.mp3"; sourceTree = "<group>"; };
+		D02AE5032A23D0BB00321500 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02AE4DF2A22902300321500 /* RxRelay in Frameworks */,
+				D02AE4DD2A22902300321500 /* RxCocoa in Frameworks */,
+				D02AE4E12A22902300321500 /* RxSwift in Frameworks */,
+				D02AE4DA2A228FFC00321500 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +90,76 @@
 		D02AE4BD2A228DCB00321500 /* MusicPlayerTestovoe */ = {
 			isa = PBXGroup;
 			children = (
-				D02AE4BE2A228DCB00321500 /* AppDelegate.swift */,
-				D02AE4C02A228DCB00321500 /* SceneDelegate.swift */,
-				D02AE4C22A228DCB00321500 /* ViewController.swift */,
-				D02AE4C42A228DCB00321500 /* Main.storyboard */,
-				D02AE4C72A228DCC00321500 /* Assets.xcassets */,
-				D02AE4C92A228DCC00321500 /* LaunchScreen.storyboard */,
+				D02AE4EC2A22966F00321500 /* Models */,
+				D02AE4E22A22909800321500 /* Audio */,
+				D02AE4D52A228F2F00321500 /* Utilities */,
+				D02AE4D42A228E0200321500 /* ViewModels */,
+				D02AE4D32A228DF300321500 /* Views */,
+				D02AE4D22A228DD100321500 /* Supporting */,
 				D02AE4CC2A228DCC00321500 /* Info.plist */,
 			);
 			path = MusicPlayerTestovoe;
+			sourceTree = "<group>";
+		};
+		D02AE4D22A228DD100321500 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				D02AE4BE2A228DCB00321500 /* AppDelegate.swift */,
+				D02AE4C02A228DCB00321500 /* SceneDelegate.swift */,
+				D02AE4C42A228DCB00321500 /* Main.storyboard */,
+				D02AE4C72A228DCC00321500 /* Assets.xcassets */,
+				D02AE4C92A228DCC00321500 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		D02AE4D32A228DF300321500 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D02AE4C22A228DCB00321500 /* MainViewController.swift */,
+				D02AE4EF2A229D3000321500 /* TrackViewController.swift */,
+				D02AE4E62A22921D00321500 /* CustomCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D02AE4D42A228E0200321500 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D02AE4E42A22915300321500 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D02AE4D52A228F2F00321500 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D02AE4D62A228F4100321500 /* UIColor+Extension.swift */,
+				D02AE4E82A22926B00321500 /* ReuseIdentifiable.swift */,
+				D02AE4EA2A22936F00321500 /* UIView+Extension.swift */,
+				D02AE5032A23D0BB00321500 /* Image+Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D02AE4E22A22909800321500 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D02AE4FB2A22CB5500321500 /* the-unforgiven.mp3 */,
+				D02AE4F32A22B1DD00321500 /* karma-police.mp3 */,
+				D02AE4FD2A22CC8000321500 /* if-darkness-had-a-son.mp3 */,
+				D02AE4FF2A22CDC100321500 /* killer.mp3 */,
+				D02AE5012A22CE5D00321500 /* st-anger.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		D02AE4EC2A22966F00321500 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D02AE4ED2A22968000321500 /* Track.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +178,12 @@
 			dependencies = (
 			);
 			name = MusicPlayerTestovoe;
+			packageProductDependencies = (
+				D02AE4D92A228FFC00321500 /* SnapKit */,
+				D02AE4DC2A22902300321500 /* RxCocoa */,
+				D02AE4DE2A22902300321500 /* RxRelay */,
+				D02AE4E02A22902300321500 /* RxSwift */,
+			);
 			productName = MusicPlayerTestovoe;
 			productReference = D02AE4BB2A228DCB00321500 /* MusicPlayerTestovoe.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +212,10 @@
 				Base,
 			);
 			mainGroup = D02AE4B22A228DCB00321500;
+			packageReferences = (
+				D02AE4D82A228FFC00321500 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D02AE4DB2A22902300321500 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = D02AE4BC2A228DCB00321500 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +231,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02AE4CB2A228DCC00321500 /* LaunchScreen.storyboard in Resources */,
+				D02AE4FE2A22CC8000321500 /* if-darkness-had-a-son.mp3 in Resources */,
+				D02AE5002A22CDC100321500 /* killer.mp3 in Resources */,
+				D02AE5022A22CE5D00321500 /* st-anger.mp3 in Resources */,
+				D02AE4FC2A22CB5500321500 /* the-unforgiven.mp3 in Resources */,
 				D02AE4C82A228DCC00321500 /* Assets.xcassets in Resources */,
 				D02AE4C62A228DCB00321500 /* Main.storyboard in Resources */,
+				D02AE4F42A22B1DD00321500 /* karma-police.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +248,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02AE4C32A228DCB00321500 /* ViewController.swift in Sources */,
+				D02AE5042A23D0BB00321500 /* Image+Extension.swift in Sources */,
+				D02AE4E52A22915300321500 /* MainViewModel.swift in Sources */,
+				D02AE4E92A22926B00321500 /* ReuseIdentifiable.swift in Sources */,
+				D02AE4EB2A22936F00321500 /* UIView+Extension.swift in Sources */,
+				D02AE4C32A228DCB00321500 /* MainViewController.swift in Sources */,
+				D02AE4F02A229D3000321500 /* TrackViewController.swift in Sources */,
 				D02AE4BF2A228DCB00321500 /* AppDelegate.swift in Sources */,
+				D02AE4EE2A22968000321500 /* Track.swift in Sources */,
 				D02AE4C12A228DCB00321500 /* SceneDelegate.swift in Sources */,
+				D02AE4E72A22921D00321500 /* CustomCell.swift in Sources */,
+				D02AE4D72A228F4100321500 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +411,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +420,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Junior.MusicPlayerTestovoe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,8 +442,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +451,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Junior.MusicPlayerTestovoe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +482,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D02AE4D82A228FFC00321500 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		D02AE4DB2A22902300321500 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D02AE4D92A228FFC00321500 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D02AE4D82A228FFC00321500 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D02AE4DC2A22902300321500 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D02AE4DB2A22902300321500 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		D02AE4DE2A22902300321500 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D02AE4DB2A22902300321500 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		D02AE4E02A22902300321500 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D02AE4DB2A22902300321500 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D02AE4B32A228DCB00321500 /* Project object */;
 }
