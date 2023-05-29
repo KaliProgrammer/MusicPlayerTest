@@ -87,6 +87,22 @@ class TrackViewController: UIViewController {
         return button
     }()
     
+    private lazy var closeButton: UIButton = {
+        let button = UIButton()
+        button.addTarget(self, action: #selector(closeBtnTapped), for: .touchUpInside)
+        button.setBackgroundImage(UIImage(systemName: "xmark"), for: .normal)
+        return button
+    }()
+    
+    private lazy var cancelButton: UIButton = {
+        let button = UIButton()
+        button.addTarget(self, action: #selector(closeBtnTapped), for: .touchUpInside)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+        button.setTitleColor(.systemBlue, for: .normal)
+        button.setTitle("Close", for: .normal)
+        return button
+    }()
+    
     override func viewDidLoad()  {
         super.viewDidLoad()
         view.backgroundColor = UIColor.theme.backgroundColor
@@ -100,6 +116,10 @@ class TrackViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         player.pause()
+    }
+    
+    @objc func closeBtnTapped() {
+        self.dismiss(animated: true, completion: nil)
     }
     
     //Stop and play button processing
@@ -254,7 +274,9 @@ class TrackViewController: UIViewController {
             bandLabel,
             trackNameLabel,
             startingTimeLabel,
-            endingTimeLabel])
+            endingTimeLabel,
+            closeButton,
+            cancelButton])
         
         trackNameLabel.snp.makeConstraints { make in
             make.top.equalTo(self.view.snp.top).offset(400)
@@ -305,6 +327,20 @@ class TrackViewController: UIViewController {
             make.trailing.equalTo(self.view.snp.trailing).offset(-16)
             make.bottom.equalTo(slider.snp.top).offset(-12)
             make.height.equalTo(12)
+        }
+        
+        closeButton.snp.makeConstraints { make in
+            make.leading.equalTo(self.view.snp.leading).offset(16)
+            make.trailing.equalTo(cancelButton.snp.leading).offset(-2)
+            make.top.equalTo(self.view.snp.top).offset(16)
+            make.height.equalTo(20)
+        }
+        
+        cancelButton.snp.makeConstraints { make in
+            make.leading.equalTo(closeButton.snp.trailing).offset(2)
+            make.top.equalTo(self.view.snp.top).offset(16)
+            make.height.equalTo(20)
+            make.width.equalTo(50)
         }
     }
 }
